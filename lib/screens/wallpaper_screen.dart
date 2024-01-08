@@ -26,7 +26,7 @@ class _WallPaperScreenState extends State<WallPaperScreen> {
           SizedBox( height: 90, width: 90,
             child: Column(
               children: [
-                FloatingActionButton(onPressed: (){},child: SizedBox(height: 50, width: 50  ,child: Container(
+                FloatingActionButton(onPressed: (){},heroTag: "tag1",child: SizedBox(height: 50, width: 50  ,child: Container(
                   child: Icon(Icons.info_outline),)),),
                 Text("info",style: TextStyle(color: Colors.white),),
               ],
@@ -35,7 +35,7 @@ class _WallPaperScreenState extends State<WallPaperScreen> {
             SizedBox( height: 90, width: 90,
               child: Column(
                 children: [
-                  FloatingActionButton(onPressed: (){},child: SizedBox(height: 50, width: 50  ,child: Container(
+                  FloatingActionButton(onPressed: (){},heroTag: "tag2",child: SizedBox(height: 50, width: 50  ,child: Container(
                     child: Icon(Icons.save_alt),)),),
                   Text("Save",style: TextStyle(color: Colors.white),),
                 ],
@@ -44,7 +44,7 @@ class _WallPaperScreenState extends State<WallPaperScreen> {
             SizedBox( height: 90, width: 90,
               child: Column(
                 children: [
-                  FloatingActionButton(onPressed: (){},child: SizedBox(height: 50, width: 50  ,child: Container(
+                  FloatingActionButton(onPressed: (){},heroTag: "tag3",child: SizedBox(height: 50, width: 50  ,child: Container(
                     child: Icon(Icons.published_with_changes),)),),
                   Text("Apply",style: TextStyle(color: Colors.white),),
                 ],
